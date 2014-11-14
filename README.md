@@ -9,6 +9,7 @@ dev-notes
 ### Putty
 * Settings > Terminal > Features > Tick `Disable application cursor keys mode` - stops it capturing key combinations like `Ctrl <-` and `Ctrl ->`
 * Settings > Connection > SSH > Auth > Tick `Allow agent forwarding`
+* Settings > Connection > SSH > Auth > Add `Private key for authentication`
 * Start `pageant` (ships with Putty) and add SSH key to it - it will then allow forwarding to remote hosts
 
 ### tmux
